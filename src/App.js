@@ -1,4 +1,4 @@
-import { React } from "react";
+import React from "react";
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import Topbar from "./scenes/global/TopBar";
@@ -46,6 +46,6 @@ function App() {
       </ThemeProvider>
     </ColorModeContext.Provider>
   );
-}
+};
 
 export default App;
